@@ -35,6 +35,8 @@ orchestration_extras = {
     "gcp": [
         "google-cloud-secret-manager >= 2.4.0",
         "google-cloud-storage >= 1.13, < 2.0",
+        "google-cloud-aiplatform",
+        "google-auth",
     ],
     "git": ["dulwich >= 0.19.7"],
     "github": ["PyGithub >= 1.51, < 2.0"],
