@@ -129,9 +129,6 @@ class TestEnvVars:
         expected["PREFECT__CLOUD__AUTH_TOKEN"] = "TEST_TOKEN"
         assert env == expected
 
-    def test_env_overrides(self, agent):
-        pass
-
 
 class TestGenerateTaskDefinition:
     def test_env_list(self, agent):
